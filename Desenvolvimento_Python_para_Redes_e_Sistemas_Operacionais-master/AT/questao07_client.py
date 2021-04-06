@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 07                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_07.py                                   *
-***************************************************************************/
-"""
+
 import os
 import time
 import socket
@@ -45,5 +36,3 @@ while not acknowledged:
     except socket.timeout:
         UDPClientSocket.sendto(bytesToSend, serverAddressPort)
 UDPClientSocket.close()
-
-print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")

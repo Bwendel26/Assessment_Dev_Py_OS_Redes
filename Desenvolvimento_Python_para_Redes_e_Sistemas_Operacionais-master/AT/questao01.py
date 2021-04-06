@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 01                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_01.py                                   *
-***************************************************************************/
-"""
+
 import psutil
 import time
 from psutil._common import bytes2human
@@ -54,7 +45,6 @@ class Questao_01():
             print('{}{:<7}{:<10}{:<10}{:<10}'.format(
                 ' '*2, pid, info_pid[1], info_pid[2], info_pid[0]))
             time.sleep(0.1)
-        print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
 
 
 Questao_01().print_result()

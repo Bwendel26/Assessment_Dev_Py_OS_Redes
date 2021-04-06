@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 09                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_09.py                                   *
-***************************************************************************/
-"""
+
 import random
 import time
 import threading
@@ -56,6 +47,5 @@ class Threading():
 
         end_time = float(time.time())
         print('{}Tempo de multi threading: {}'.format(' '*2, end_time - start_time))
-        print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
 
 Threading()

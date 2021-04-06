@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 05                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_05.py                                   *
-***************************************************************************/
-"""
+
 import time
 
 
@@ -67,7 +58,6 @@ class Questao_05():
         for _sum in self.list_sum:
             print('{}{:<7}'.format(' '*2, _sum))
             time.sleep(0.5)
-        print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
 
 
 Questao_05().print_result()

@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 03                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_03.py                                   *
-***************************************************************************/
-"""
+
 import os
 from pathlib import Path as path
 from psutil._common import bytes2human
@@ -68,8 +59,7 @@ class Questao_03():
             for _file in self.list_file:
                 print('{} {:<10} {:^10}'.format(
                     ' '*2, bytes2human(_file['size']), _file['name']))
-        print('---' * 25, 'O arquivo questao03.txt foi criado com sucesso!',
-              '---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
+        print('---' * 25, 'O arquivo questao03.txt foi criado com sucesso!')
 
 
 Questao_03().print_result()

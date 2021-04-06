@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 09                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_09.py                                   *
-***************************************************************************/
-"""
+
 import time
 import random
 
@@ -44,7 +35,6 @@ class Sequencial():
         """ This is a printer! It prints. """
         self.calc_factorial()
         print('{}Tempo de processamento sequencial: {}'.format(' '*2, self.end_time - self.start_time))
-        print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
 
 
 Sequencial().print_result()

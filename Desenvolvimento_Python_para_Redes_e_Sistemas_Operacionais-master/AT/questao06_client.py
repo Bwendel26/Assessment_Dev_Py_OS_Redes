@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 06                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_06.py                                   *
-***************************************************************************/
-"""
+
 import socket
 import os
 import pickle
@@ -47,6 +38,6 @@ class Questao_06_Client():
                 '\t {:<15} {:^10}'.format('Arquivo', 'Tamanho'), sep="\n")
         for _file in list_file:
             print('\t {:<15} {:^10}'.format(_file[0], _file[1]))
-        print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
+
 
 Questao_06_Client()

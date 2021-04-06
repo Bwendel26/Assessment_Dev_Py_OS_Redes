@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 04                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_04.py                                   *
-***************************************************************************/
-"""
+
 import psutil
 import time
 from psutil._common import bytes2human
@@ -45,7 +36,6 @@ class Questao_04():
         """ This is a printer! It prints. """
         for item in self.line_file_list:
             print(item)
-        print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
 
 
 Questao_04().print_result()

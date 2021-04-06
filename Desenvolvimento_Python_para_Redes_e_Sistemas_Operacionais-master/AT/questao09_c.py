@@ -1,25 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 09                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_09.py                                   *
-***************************************************************************/
-"""
-# -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 08                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_08.py                                   *
-***************************************************************************/
-"""
 
 import multiprocessing
 import time
@@ -78,5 +57,3 @@ if __name__ == "__main__":
 
     end_time = float(time.time())
     print('{}Tempo de multi processamento: {}'.format(' '*2, end_time - start_time))
-    print('---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
-

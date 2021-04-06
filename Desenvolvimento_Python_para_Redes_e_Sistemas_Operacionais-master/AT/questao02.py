@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-/****************************** ASSESSMENT *********************************
-*    Questao 02                                                            *
-*        Aluno           : Francisco Alves Camello Neto                    *
-*        Disciplina      : Desenvolvimento Python para Redes e             *
-*                           Sistemas Operacionais                          *
-*        Professor       : Thaís do Nascimento Viana                       *
-*        Nome do arquivo : questao_02.py                                   *
-***************************************************************************/
-"""
+
 import os
 import errno
 
@@ -54,8 +45,7 @@ class Questao_02():
             print(self.error,
                   '---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
         else:
-            print('\nO arquivo {} foi aberto!'.format(self.file_name),
-                  '---' * 25, 'Aluno: Francisco Camello'.rjust(75), sep="\n")
+            print('\nO arquivo {} foi aberto!'.format(self.file_name))
 
 
 
